@@ -32,4 +32,5 @@ console.log('undefinedVariable == undefined: ', undefinedVariable == undefined);
 //=================================================================================================================================
 console.log('\n\n### Null & Undefined comparison: ');
 console.log('null === undefined: ', null === undefined); //false
+console.log('typeof null == typeof undefined: ', typeof null == typeof undefined); //false
 console.log('null == undefined: ', null == undefined); //true
