@@ -3,10 +3,14 @@
 // ---> Object initializers
 let man1 = {
     fName: "John",
-    lName: "Doe"
+    lName: "Doe",
+    getFullName: function () {
+        return `${this.fName} ${this.lName}`;
+    }
 }
 console.log("man1: ", man1); //{ fName: 'John', lName: 'Doe' }
 console.log("man1.fName: ", man1.fName); //John
+console.log("man1.getFullName: ", man1.getFullName()); //John Doe
 
 let man2 = {
     fName: "John",
